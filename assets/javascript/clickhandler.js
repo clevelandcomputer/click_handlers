@@ -37,8 +37,8 @@ even_or_odd_button.addEventListener("click", function () {
     * (from part 2, above) is even or odd.
     */
    if (count % 2 == 0){
-        alert("Even");
-   }    else {
-        alert("Odd");
-   }
+        alert("The button was clicked an EVEN amount of times\nThe background color of the box is " + color_box.className);
+    }    else {
+        alert("The button was clicked an ODD amount of times\nThe background color of the box is " + color_box.className);
+    }
 })
